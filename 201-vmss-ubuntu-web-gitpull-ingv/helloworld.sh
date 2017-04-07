@@ -2,6 +2,8 @@
 
 OUTPUTFILE=/tmp/helloword.log
 
+date >> $OUTPUTFILE
+
 echo "Hello World" >> $OUTPUTFILE
 
 echo "$@" >> $OUTPUTFILE
